@@ -1,0 +1,48 @@
+.about-us{
+    max-width: 1200px;
+    text-align: center;
+    margin:auto;
+    font-size: 2rem;
+    color: black;
+    padding: 4rem 0;
+}
+
+.about-us .logo{
+  width: 25rem;
+  margin: auto;
+
+}
+
+/* ================ BREAKPOINS ===============*/
+/* For large devices  */
+@media screen and (max-width: 992px) {
+    .about-us{
+        margin: 0 2rem 4rem 2rem;
+        font-size: 1.8rem;
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .about-us{
+        font-size: 1.6rem;
+        text-align: justify;
+    }
+    
+    .about-us .logo{
+      width: 20rem;
+      margin: auto;
+      margin-bottom: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .about-us{
+        font-size: 1.4rem;
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 450px) {
+   
+  }

@@ -1,0 +1,130 @@
+.portfolio{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 4rem;
+}
+
+.portfolio-filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.75rem;
+    margin-bottom: var(--mb-2);
+    margin-top: 2rem;
+}
+ 
+.portfolio-item {
+    cursor: pointer;
+    color: var(--title-color);
+    padding: 0.25rem 0.75rem;
+    font-weight: var(--font-medium);
+    border-radius: 0.5rem;
+    text-transform: capitalize;
+}
+
+.portfolio-item:hover {
+    background-color: var(--title-color);
+    color: var(--container-color);
+}
+
+.portfolio-container {
+    grid-template-columns: repeat(3,max-content);
+    gap: 2rem;
+    justify-content: center;
+}
+
+.portfolio-card {
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: .8rem;
+    border-radius: 1rem;
+}
+
+.portfolio-img {
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    margin-bottom: var(--mb-1);
+}
+
+.portfolio-title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-5);
+}
+
+.portfolio-button {
+    color: var(--text-color);
+    font-size: var(--small-font-size);
+    display: flex;
+    align-items: center;
+    column-gap: 0.25rem;
+}
+
+.portfolio-button-icon {
+    font-size: 1rem;
+    transition: translateX(0.25rem);
+}
+
+.portfolio-button:hover .portfolio-button-icon {
+    transition: .3s ease;
+    transform: translateX(00.25rem);
+}
+/* active work */
+.active-work {
+    background-color: var(--title-color);
+    color: var(--container-color);
+}
+
+/* ================ BREAKPOINS ===============*/
+/* For large devices  */
+@media screen and (max-width: 1100px) {
+    .portfolio-container {
+        gap: 1.25rem;
+    }
+
+    .portfolio-card {
+        padding: 1rem;
+    }
+
+    .portfolio-img {
+        margin-bottom: 0.75rem;
+    }
+
+    .portfolio-title {
+        margin-bottom: 0.25rem;
+    }
+
+    .portfolio-container{
+        grid-template-columns: repeat(2,max-content);
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .portfolio-container{
+        grid-template-columns: max-content;
+    }
+
+  }
+  
+  @media screen and (max-width: 576px) {
+   .portfolio-container {
+    grid-template-columns: 1fr;
+   }
+
+   .portfolio-img {
+    width: 100%;
+   }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .portfolio-item {
+        font-size: var(--small-font-size);
+    }
+
+    .portfolio-filters {
+        column-gap: 0.25rem;
+    }
+}

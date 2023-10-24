@@ -1,0 +1,175 @@
+a{
+    color: black;
+}
+
+.footer-title {
+    padding-bottom: .5rem;
+    border-bottom: 1px solid black;
+}
+
+/* ================ contact us ===============*/
+.contact-us{
+    max-width: 1400px;
+    background-image: linear-gradient(
+    118deg,
+    #ff715ee8,
+    #fdc8c8dc
+    ),
+    url("../../assest/contactUs.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-size: var(--h2-font-size);
+    font-weight: 800;
+    padding: 4rem;
+    gap: 2rem;
+    margin: auto;
+}
+
+.contact-us-title{
+    max-width: 800px;
+}
+
+.contact-us-button button{
+    padding: 1rem 3rem;
+    border: 2px solid black;
+    background-color: inherit;
+    width: 200px;
+}
+
+/* ================ Footer Info ===============*/
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #fef8f5;
+    color: black;
+    gap: 2rem;
+    padding: 5rem 1rem;
+}
+
+
+.footer-logo img{
+    width: 15rem;
+}
+
+
+.footer-info{
+    display: flex;
+    flex-flow: column nowrap;
+    /* gap: 1rem; */
+}
+
+.footer-social-link{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+
+.footer-social-link i{
+    font-size: 1.5rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: .5rem;
+}
+
+.footer-social-link i:hover{
+    background-color: black;
+    color: white;
+}
+
+/* ================ Quick Links ===============*/
+.footer-quick-link ul{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: .5rem;
+    margin-top: 1rem;
+}
+
+.footer-quick-link i{
+    font-size: 1.5rem;
+}
+
+.quick-link{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+/* ================ Contact Info ===============*/
+.footer-contact ul{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+    margin-top: 1.1rem;
+}
+
+.footer-contact a {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: .7rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-contact i {
+    font-size: 1.3rem;
+}
+
+/* ================ Copyright Info ===============*/
+
+.copyrigth{
+    padding: 2rem;
+    background-color: #fef8f5;
+    color: black;
+    text-align: center;
+    border-top: 1px solid rgb(142, 142, 142);
+}
+
+/* ================ BREAKPOINS ===============*/
+  /* For large devices  */
+@media screen and (max-width: 992px) {
+    .footer{
+        grid-template-columns: repeat(2,1fr);
+        padding: 5rem;
+    }
+
+    .contact-us{
+        flex-flow: column nowrap;
+        text-align: center;
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .footer{
+        grid-template-columns: repeat(1,1fr);
+        padding: 5rem;
+    }
+
+    .contact-us{
+        text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .footer{
+        padding: 5rem 2rem;
+    }
+
+    .contact-us{
+        padding: 4rem 2rem;
+        text-align: center;
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    
+  }

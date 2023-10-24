@@ -1,0 +1,89 @@
+.carosel{
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.client-card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: var(--container-color); */
+    padding: 4rem;
+    margin-bottom: var(--mb-3);
+    text-align: center;
+    font-size: var(--normal-font-size);
+}
+
+.client-card i{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.client-message{
+    margin-bottom: var(--mb-2);
+}
+
+.client-name,
+.client-post{
+    font-size: var(--normal-font-size);
+}
+
+.client-info{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* ================ BREAKPOINS ===============*/
+/* For large devices  */
+@media screen and (max-width: 992px) {
+    .carosel{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .testimonials{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .carosel{
+        max-width: 700px;
+        margin: 0 2rem;
+    }
+
+    .testimonials{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .carosel{
+        max-width: 750px;
+        margin: 0 2rem;
+    }
+
+    .testimonials{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .client-card{
+        padding: 2rem 0; 
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    
+  }

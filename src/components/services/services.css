@@ -1,0 +1,45 @@
+.feature-section{
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 3rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.opposite{
+    flex-flow: row-reverse wrap;
+}
+
+.feature-img{
+    width: 23rem;
+}
+
+.feature-description{
+    max-width: 400px;
+    margin-top: 1rem;
+}
+
+/* ================ BREAKPOINS ===============*/
+/* For large devices  */
+@media screen and (max-width: 992px) {
+    .opposite{
+        flex-flow: row wrap;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+    .feature-section{
+        margin: 0 2rem;
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {}

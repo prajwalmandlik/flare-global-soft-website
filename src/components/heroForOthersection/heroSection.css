@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@300&display=swap');
+
+.hero-section {
+  height: 50vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.hero-text p {
+  font-size: 7rem;
+  color: whitesmoke;
+  font-weight: 700;
+  margin-left: 2rem;
+  text-transform: uppercase;
+}
+
+.service-img{
+  background-image: linear-gradient(1deg,#ff715ec7,#fae3e3a0),url("../../assest/services.jpg");
+}
+
+.about-img{
+  background-image: linear-gradient(1deg,#ff715ec7,#fae3e3a0),url("../../assest/about.jpg");
+}
+
+.contact-img{
+  background-image: linear-gradient(1deg,#ff715ec7,#fae3e3a0),url("../../assest/contact.jpg");
+}
+
+.terms-img{
+  background-image: linear-gradient(1deg,#ff715ec7,#fae3e3a0),url("../../assest/terms.jpg");
+}
+
+.internship-img{
+  background-image: linear-gradient(1deg,#ff715ec7,#fae3e3a0),url("../../assest/internship.jpg");
+}
+
+
+/* ================ BREAKPOINS ===============*/
+/* For large devices  */
+@media screen and (max-width: 992px) {}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {
+  .hero-section {
+    height: 35vh;
+  }
+
+  .hero-text p {
+    font-size: 3.5rem;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {}

@@ -1,0 +1,47 @@
+.terms-containt{
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+.term-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+    margin: 4rem;
+    text-align: center;
+}
+
+.term-info {
+    line-height: 1.7rem;
+}
+
+.term-info ol {
+    list-style: decimal;
+    margin: 1rem 0;
+    margin-left: 4rem;
+}
+
+/* ================ BREAKPOINS ===============*/
+/* For large devices  */
+@media screen and (max-width: 992px) {
+    .terms-containt{
+        margin: 2rem;
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    
+  }
+  
+  @media screen and (max-width: 576px) {
+    .term-info ol{
+        margin-left: 2rem;
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    
+  }

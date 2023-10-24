@@ -1,0 +1,117 @@
+ @import url('https://fonts.googleapis.com/css2?family=Teko:wght@400&display=swap');
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    color: black;
+}
+
+.nav,
+.nav-logo > .logo-link,
+.nav-links,
+.nav-links-show {
+    height: calc(var(--header-height) + 1.5rem);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.nav-logo > .logo-link{
+    gap: 0.5rem;
+    font-size: 2rem;
+    font-family: 'Teko', sans-serif;
+}
+
+.nav-logo img {
+    width: 2rem;
+}
+
+
+.nav-toggle {
+    display: none;
+}
+
+.scroll-header{
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+    background-color: white;
+}
+/* ================ BREAKPOINS ===============*/
+/* For large devices  */
+@media screen and (max-width: 992px) {
+    .header{
+        padding-left: 1rem;
+        
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    .nav-menu-show {
+        position: fixed;
+        overflow: hidden;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        transition: .5s ease-in-out;
+
+    }
+    
+    .nav-links-show {
+        display: block;
+        position: absolute;
+        top: 75px;
+        right: 15px;
+        bottom: 15px;
+        left: 15px;
+        padding: 10px 0;
+        background-color: white;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        padding: 1.5rem;
+        width: 95vw;
+        height: 90vh;
+        font-size: 1.2rem;
+        transition: .5s ease-in-out;
+    }
+
+    .nav-link{
+        color: black;
+        border-bottom: 1px solid rgb(200, 200, 200);
+        margin-bottom: 1rem;
+    }
+
+    .nav-toggle {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 2rem;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+
+    
+}
+
+@media screen and (max-width: 576px) {
+    .nav-logo{
+        font-size: 2rem;
+    }
+    .nav-links-show{
+        width: 90%;
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {}
