@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Web from "../../assest/web.png";
 import App from "../../assest/app.png";
 import Graphic from "../../assest/graphic.png";
+import Internship from "../../assest/Internship.png";
 
 const ServiesFT = () => {
   const [toggleState, setToggleState] = useState(0);
@@ -220,7 +221,7 @@ const ServiesFT = () => {
         </div>
 
         <div className="service-card">
-          <img src={App} alt="" />
+          <img src={Internship} alt="" />
           <h3>Internship</h3>
           <p>
           Whether you're seeking an internship opportunity to gain hands-on experience, we offer the knowledge and experience to assist you in reaching your objectives.
