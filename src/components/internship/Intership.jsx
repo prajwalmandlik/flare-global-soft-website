@@ -110,7 +110,7 @@ const Intership = () => {
                 <option value="web Development">Web Development</option>
                 <option value="App Development">App Development</option>
                 <option value="Python Development">Python Development</option>
-                <option value="Graphics Desing">Java Development</option>
+                <option value="Java Development">Java Development</option>
               </select>
             </div>
 
