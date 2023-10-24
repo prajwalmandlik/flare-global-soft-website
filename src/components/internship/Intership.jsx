@@ -110,7 +110,7 @@ const Intership = () => {
                 <option value="web Development">Web Development</option>
                 <option value="App Development">App Development</option>
                 <option value="Python Development">Python Development</option>
-                <option value="Graphics Desing">Graphics Desing</option>
+                <option value="Graphics Desing">Java Development</option>
               </select>
             </div>
 
@@ -152,15 +152,15 @@ const Intership = () => {
               />
             </div>
 
-            <div className="form-fild-title">Collage Details</div>
+            <div className="form-fild-title">College Details</div>
 
             <div className="form-fild collage-name">
-              <label htmlFor="collage">Collage Name</label>
+              <label htmlFor="collage">College Name</label>
               <input
                 type="text"
                 name="collage"
                 id="collage"
-                placeholder="enter collage name"
+                placeholder="Enter College name"
                 required
               />
             </div>
@@ -171,7 +171,7 @@ const Intership = () => {
                 type="text"
                 name="branch"
                 id="branch"
-                placeholder="enter collage name"
+                placeholder="Enter Your Branch"
                 required
               />
             </div>
@@ -182,7 +182,7 @@ const Intership = () => {
                 type="text"
                 name="year-of-study"
                 id="year-of-study"
-                placeholder="enter collage name"
+                placeholder="Enter Your Study Year"
                 required
               />
             </div>

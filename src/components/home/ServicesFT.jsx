@@ -218,6 +218,65 @@ const ServiesFT = () => {
             </div>
           </div>
         </div>
+
+        <div className="service-card">
+          <img src={App} alt="" />
+          <h3>Internship</h3>
+          <p>
+          Whether you're seeking an internship opportunity to gain hands-on experience, we offer the knowledge and experience to assist you in reaching your objectives.
+          </p>
+          <span className="services-button" onClick={() => toggleTab(4)}>
+            View More
+            <i className="uil uil-arrow-right services-button-icon"></i>
+          </span>
+
+          <div
+            className={
+              toggleState === 4
+                ? "services-modal active-modal"
+                : "services-modal"
+            }
+          >
+            <div className="services-modal-content">
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times services-modal-close"
+              ></i>
+
+              <h3 className="services-modal-title">Internship</h3>
+              <p className="services-modal-description">
+              Gain hands-on experience with 2 years of industry expertise. Providing quality industry experience for Students & Beginners.
+              </p>
+
+              <ul className="services-modal-services grid">
+                <li className="services-modal-service">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">Get Certified.</p>
+                </li>
+
+                <li className="services-modal-service">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">Trained by Experts.</p>
+                </li>
+
+                <li className="services-modal-service">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">Explore Opportunities.</p>
+                </li>
+
+                <li className="services-modal-service">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">Utilities development.</p>
+                </li>
+
+                <li className="services-modal-service">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">Gain Experience.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
