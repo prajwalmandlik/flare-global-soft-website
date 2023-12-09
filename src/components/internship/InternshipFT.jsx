@@ -43,41 +43,40 @@ const InternshipFT = () => {
                 className="uil uil-times services-modal-close"
               ></i>
 
-              <h3 className="services-modal-title">Website Development</h3>
+              <h3 className="services-modal-title">Full Stack Web Development</h3>
               <p className="services-modal-description">
-                Serives with 2 years of experience. Providing quality work to
-                clients and companies.
+              Join our internship, leveraging two years of expertise. Dive into quality work in web design, development, and project management, accelerating your skills in Full Stack Web Development.
               </p>
 
               <ul className="services-modal-services grid">
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Custom website design and development.</p>
+                  <p className="services-modal-info">Introduction to Web Development.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Redesigning.</p>
+                  <p className="services-modal-info">Advanced CSS and JavaScript.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Web application development and intergration.</p>
+                  <p className="services-modal-info">React.js Fundamentals.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Maintenance and support.</p>
+                  <p className="services-modal-info">Advanced React.js.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Domain and hosting.</p>
+                  <p className="services-modal-info">Node.js and Express.js.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Project handling and error solving.</p>
+                  <p className="services-modal-info">MongoDB and Full-Stack Integration.</p>
                 </li>
               </ul>
             </div>
@@ -172,41 +171,40 @@ const InternshipFT = () => {
                 className="uil uil-times services-modal-close"
               ></i>
 
-              <h3 className="services-modal-title">Graphics Design</h3>
+              <h3 className="services-modal-title">Java Fundamentals</h3>
               <p className="services-modal-description">
-                Serives with 2 years of experience. Providing quality work to
-                clients and companies.
+              Join our Java Fundamentals internship for concise, hands-on expertise in application design, development, and project handling, guided by our two years of industry experience.
               </p>
 
               <ul className="services-modal-services grid">
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Logo design and branding.</p>
+                  <p className="services-modal-info">Java Fundamentals.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Print Materials.</p>
+                  <p className="services-modal-info">Control Structure, Looping,Function & Methods.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Advertising.</p>
+                  <p className="services-modal-info">OOPs basics.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Presentations.</p>
+                  <p className="services-modal-info">Arrays and Basic I/O.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Instagram Posts.</p>
+                  <p className="services-modal-info">Strings.</p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Video Production</p>
+                  <p className="services-modal-info">File handling</p>
                 </li>
               </ul>
             </div>
@@ -237,9 +235,9 @@ const InternshipFT = () => {
                 className="uil uil-times services-modal-close"
               ></i>
 
-              <h3 className="services-modal-title">Internship</h3>
+              <h3 className="services-modal-title">Python Fundamentals</h3>
               <p className="services-modal-description">
-              Gain hands-on experience with 2 years of industry expertise. Providing quality industry experience for Students & Beginners.
+              Join our Python Fundamentals Internship with two years of expertise. Dive into quality work for clients, gaining hands-on experience in Python basics, development, and project handling. Elevate your skills in the dynamic realm of Python programming.
               </p>
 
               <ul className="services-modal-services grid">
