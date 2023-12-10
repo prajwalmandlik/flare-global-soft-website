@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
 import HeroSection from "../heroForOthersection/HeroSection";
 
-const Intership = () => {
+const InternshipForm = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -189,8 +189,6 @@ const Intership = () => {
 
             {/* <div className="form-fild-title">About</div> */}
 
-            
-
             <div className="form-fild">
               <button type="submit" className="button">
                 send your application
@@ -205,4 +203,4 @@ const Intership = () => {
   );
 };
 
-export default Intership;
+export default InternshipForm;

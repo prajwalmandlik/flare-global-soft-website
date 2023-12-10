@@ -1,21 +1,30 @@
 import React from "react";
 import "./footer.css";
 import Logo from "../../assest/footer-logo.png";
-import { HashLink} from "react-router-hash-link";
-
+import { HashLink } from "react-router-hash-link";
+import { useLocation } from "react-router-dom";
 
 const Footer = () => {
+  const { pathname } = useLocation();
+
+  const flag = pathname.includes("/Internship");
+
   return (
     <section className="container section bg-color">
       <div className="contact-us">
         <div className="contact-us-title">
-          Get in Touch with us Today to discover How we can help your Business
-          reach new Heights.
+          {flag
+            ? "Apply for an Internship"
+            : "Get in Touch with us Today to discover How we can help your Business reach new Heights."}
         </div>
         <div className="contact-us-button">
-        <HashLink to={"/Contact#contact"}>
-          <button className="button">Contact Us</button>
-            </HashLink>
+          <HashLink
+            to={flag ? "/Internship-form#Internship" : "/Contact#contact"}
+          >
+            <button className="button">
+              {flag ? "Apply Now" : "Contact Us"}
+            </button>
+          </HashLink>
         </div>
       </div>
       <div className="footer">
@@ -30,7 +39,10 @@ const Footer = () => {
           <div className="footer-social-links">
             <ui className="footer-social-link">
               <li>
-                <a href="https://www.facebook.com/people/Flare-Global-Soft/100090568836870/" target={"blank"}>
+                <a
+                  href="https://www.facebook.com/people/Flare-Global-Soft/100090568836870/"
+                  target={"blank"}
+                >
                   <i class="bx bxl-facebook"></i>
                 </a>
               </li>
@@ -40,12 +52,18 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/flareglobalsoft/" target={"blank"}>
+                <a
+                  href="https://www.instagram.com/flareglobalsoft/"
+                  target={"blank"}
+                >
                   <i class="bx bxl-instagram"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/company/flare-global-soft/" target={"blank"}>
+                <a
+                  href="https://www.linkedin.com/company/flare-global-soft/"
+                  target={"blank"}
+                >
                   <i class="bx bxl-linkedin"></i>
                 </a>
               </li>
@@ -54,7 +72,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-quick-link">
-          <h3 className="footer-title" >Quick Links</h3>
+          <h3 className="footer-title">Quick Links</h3>
           <ul>
             <li>
               <HashLink to={"/About#about"} className="quick-link">
@@ -82,7 +100,10 @@ const Footer = () => {
               </HashLink>
             </li>
             <li>
-              <HashLink to={"/TermsAndCondition#Terms-and-condition"} className="quick-link">
+              <HashLink
+                to={"/TermsAndCondition#Terms-and-condition"}
+                className="quick-link"
+              >
                 <i class="bx bx-chevron-right bx-flip-vertical"></i>Terms and
                 Conditions
               </HashLink>

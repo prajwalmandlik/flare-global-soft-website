@@ -15,7 +15,7 @@ const InternshipFT = () => {
       <div className="section-text">
         <h2 className="section-title">Opportunities We Offer</h2>
         <span className="section-subtitle">
-        A comprehensive platform for gearing up for your professional success
+          A comprehensive platform for gearing up for your professional success
         </span>
       </div>
       <div className="service-cards">
@@ -23,7 +23,9 @@ const InternshipFT = () => {
           <img src={Web} alt="" />
           <h3>Full Stack Web Development</h3>
           <p>
-          Elevate your full-stack web development skills with our internship. Gain hands-on experience to construct dynamic web solutions and achieve your career goals.
+            Elevate your full-stack web development skills with our internship.
+            Gain hands-on experience to construct dynamic web solutions and
+            achieve your career goals.
           </p>
           <span className="services-button" onClick={() => toggleTab(1)}>
             View More
@@ -43,20 +45,29 @@ const InternshipFT = () => {
                 className="uil uil-times services-modal-close"
               ></i>
 
-              <h3 className="services-modal-title">Full Stack Web Development</h3>
+              <h3 className="services-modal-title">
+                Full Stack Web Development
+              </h3>
               <p className="services-modal-description">
-              Join our internship, leveraging two years of expertise. Dive into quality work in web design, development, and project management, accelerating your skills in Full Stack Web Development.
+                Join our internship, leveraging two years of expertise. Dive
+                into quality work in web design, development, and project
+                management, accelerating your skills in Full Stack Web
+                Development.
               </p>
 
               <ul className="services-modal-services grid">
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Introduction to Web Development.</p>
+                  <p className="services-modal-info">
+                    Introduction to Web Development.
+                  </p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Advanced CSS and JavaScript.</p>
+                  <p className="services-modal-info">
+                    Advanced CSS and JavaScript.
+                  </p>
                 </li>
 
                 <li className="services-modal-service">
@@ -76,7 +87,9 @@ const InternshipFT = () => {
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">MongoDB and Full-Stack Integration.</p>
+                  <p className="services-modal-info">
+                    MongoDB and Full-Stack Integration.
+                  </p>
                 </li>
               </ul>
             </div>
@@ -87,7 +100,9 @@ const InternshipFT = () => {
           <img src={App} alt="" />
           <h3>Android App Development</h3>
           <p>
-          Advance your expertise in Android app development with our internship. Acquire hands-on experience to craft impactful mobile solutions and reach your career milestones.
+            Advance your expertise in Android app development with our
+            internship. Acquire hands-on experience to craft impactful mobile
+            solutions and reach your career milestones.
           </p>
           <span className="services-button" onClick={() => toggleTab(2)}>
             View More
@@ -109,7 +124,10 @@ const InternshipFT = () => {
 
               <h3 className="services-modal-title">Android App Development</h3>
               <p className="services-modal-description">
-              Join our Android App Development internship with two years of expertise. Dive into delivering quality work for clients, gaining hands-on experience in app design, development, maintenance, and project handling.
+                Join our Android App Development internship with two years of
+                expertise. Dive into delivering quality work for clients,
+                gaining hands-on experience in app design, development,
+                maintenance, and project handling.
               </p>
 
               <ul className="services-modal-services grid">
@@ -135,12 +153,16 @@ const InternshipFT = () => {
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Data Storage & Networking.</p>
+                  <p className="services-modal-info">
+                    Data Storage & Networking.
+                  </p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Database & Final Project.</p>
+                  <p className="services-modal-info">
+                    Database & Final Project.
+                  </p>
                 </li>
               </ul>
             </div>
@@ -151,7 +173,9 @@ const InternshipFT = () => {
           <img src={Java} alt="" />
           <h3>Java Fundamentals</h3>
           <p>
-          Enhance your Java fundamentals proficiency with our internship. Gain hands-on experience to solidify foundational skills and pave the way for significant career milestones.
+            Enhance your Java fundamentals proficiency with our internship. Gain
+            hands-on experience to solidify foundational skills and pave the way
+            for significant career milestones.
           </p>
           <span className="services-button" onClick={() => toggleTab(3)}>
             View More
@@ -173,7 +197,9 @@ const InternshipFT = () => {
 
               <h3 className="services-modal-title">Java Fundamentals</h3>
               <p className="services-modal-description">
-              Join our Java Fundamentals internship for concise, hands-on expertise in application design, development, and project handling, guided by our two years of industry experience.
+                Join our Java Fundamentals internship for concise, hands-on
+                expertise in application design, development, and project
+                handling, guided by our two years of industry experience.
               </p>
 
               <ul className="services-modal-services grid">
@@ -184,7 +210,9 @@ const InternshipFT = () => {
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Control Structure, Looping,Function & Methods.</p>
+                  <p className="services-modal-info">
+                    Control Structure, Looping,Function & Methods.
+                  </p>
                 </li>
 
                 <li className="services-modal-service">
@@ -215,7 +243,9 @@ const InternshipFT = () => {
           <img src={Python} alt="" />
           <h3>Python Fundamentals</h3>
           <p>
-          Boost your Python fundamentals proficiency with our internship. Gain hands-on experience to apply essential coding skills and advance towards your career objectives.
+            Boost your Python fundamentals proficiency with our internship. Gain
+            hands-on experience to apply essential coding skills and advance
+            towards your career objectives.
           </p>
           <span className="services-button" onClick={() => toggleTab(4)}>
             View More
@@ -237,7 +267,10 @@ const InternshipFT = () => {
 
               <h3 className="services-modal-title">Python Fundamentals</h3>
               <p className="services-modal-description">
-              Join our Python Fundamentals Internship with two years of expertise. Dive into quality work for clients, gaining hands-on experience in Python basics, development, and project handling. Elevate your skills in the dynamic realm of Python programming.
+                Join our Python Fundamentals Internship with two years of
+                expertise. Dive into quality work for clients, gaining hands-on
+                experience in Python basics, development, and project handling.
+                Elevate your skills in the dynamic realm of Python programming.
               </p>
 
               <ul className="services-modal-services grid">
