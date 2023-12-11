@@ -3,6 +3,7 @@ import Web from "../../assest/web-intern.png";
 import App from "../../assest/app-intern.png";
 import Java from "../../assest/java-intern.png";
 import Python from "../../assest/python-intern.png";
+import "./internship.css";
 
 const InternshipFT = () => {
   const [toggleState, setToggleState] = useState(0);
@@ -27,7 +28,10 @@ const InternshipFT = () => {
             Gain hands-on experience to construct dynamic web solutions and
             achieve your career goals.
           </p>
-          <span className="services-button" onClick={() => toggleTab(1)}>
+          <span
+            className="services-button intership-button"
+            onClick={() => toggleTab(1)}
+          >
             View More
             <i className="uil uil-arrow-right services-button-icon"></i>
           </span>
@@ -104,7 +108,10 @@ const InternshipFT = () => {
             internship. Acquire hands-on experience to craft impactful mobile
             solutions and reach your career milestones.
           </p>
-          <span className="services-button" onClick={() => toggleTab(2)}>
+          <span
+            className="services-button intership-button"
+            onClick={() => toggleTab(2)}
+          >
             View More
             <i className="uil uil-arrow-right services-button-icon"></i>
           </span>
@@ -177,7 +184,10 @@ const InternshipFT = () => {
             hands-on experience to solidify foundational skills and pave the way
             for significant career milestones.
           </p>
-          <span className="services-button" onClick={() => toggleTab(3)}>
+          <span
+            className="services-button intership-button"
+            onClick={() => toggleTab(3)}
+          >
             View More
             <i className="uil uil-arrow-right services-button-icon"></i>
           </span>
@@ -247,7 +257,10 @@ const InternshipFT = () => {
             hands-on experience to apply essential coding skills and advance
             towards your career objectives.
           </p>
-          <span className="services-button" onClick={() => toggleTab(4)}>
+          <span
+            className="services-button intership-button"
+            onClick={() => toggleTab(4)}
+          >
             View More
             <i className="uil uil-arrow-right services-button-icon"></i>
           </span>

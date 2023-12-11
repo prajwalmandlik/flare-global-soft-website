@@ -139,7 +139,9 @@ const Footer = () => {
       </div>
 
       <div className="copyrigth">
-        <p>©Flare Global Soft 2023 All Rights Reserved.</p>
+        <p>
+          ©Flare Global Soft {new Date().getFullYear()} All Rights Reserved.
+        </p>
       </div>
     </section>
   );

@@ -75,14 +75,12 @@ const InternshipForm = () => {
             </div>
 
             <div className="form-fild">
-              <label htmlFor="linkdin">
-                Linkdin Profile{" "}
-                <span className="optional-text">(optional)</span>
-              </label>
+              <label htmlFor="linkdin">Linkdin Profile</label>
               <input
                 type="url"
                 name="linkdin"
                 id="linkdin"
+                required
                 placeholder="paste your linkdin profile link"
               />
             </div>
@@ -102,7 +100,7 @@ const InternshipForm = () => {
             <div className="form-fild-title">Skills</div>
 
             <div className="form-fild">
-              <label htmlFor="filed">Intersted Filed</label>
+              <label htmlFor="filed">Interested Field </label>
               <select name="filed" id="filed" required>
                 <option value="none" disabled selected>
                   Select any one
